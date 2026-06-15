@@ -1,0 +1,14 @@
+managed implementation in class zbp_mb_i_spacefarer unique;
+strict ( 2 );
+define behavior for ZMB_I_SPACEFARER //alias <alias_name>
+persistent table zmb_t_sfarer
+lock master
+authorization master ( instance )
+{
+  create ( authorization : global );
+  update;
+  delete;
+  field ( readonly ) spacefarer_id;
+  validation validate_skill_reputation on save { create; update; }
+  validation validate_delete on save { delete; }
+}

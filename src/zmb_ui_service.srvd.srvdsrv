@@ -1,0 +1,6 @@
+@EndUserText.label: 'Service Definition for project'
+define service ZMB_UI_SERVICE {
+  expose ZMB_I_SPACEFARER;
+  expose ZMB_I_STARDUST_COLLECTION;
+  expose ZMB_WEALTH;
+}

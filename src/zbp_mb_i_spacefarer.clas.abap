@@ -1,0 +1,5 @@
+CLASS zbp_mb_i_spacefarer DEFINITION PUBLIC ABSTRACT FINAL FOR BEHAVIOR OF zmb_i_spacefarer.
+ENDCLASS.
+
+CLASS zbp_mb_i_spacefarer IMPLEMENTATION.
+ENDCLASS.
